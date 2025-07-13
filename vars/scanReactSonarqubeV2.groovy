@@ -1,5 +1,5 @@
-def call(String projectKey , String productName, String projectVersion){
-    
+def call(String projectKey , String projectName, String projectVersion){
+
 withSonarQubeEnv(credentialsId: 'SONARQUBE_TOKEN',
  installationName: 'sonarqube-scanner') {
                 script{
